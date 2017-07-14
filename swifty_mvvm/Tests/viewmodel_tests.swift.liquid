@@ -7,8 +7,9 @@
 //
 
 import XCTest
+@testable import {{ module_info.project_target }}
 
-class {{ module_info.name }}ViewControllerTests: XCTestCase {
+class {{ module_info.name }}ViewModelTests: XCTestCase {
 
     var viewModel: {{ prefix }}{{ module_info.name }}ViewModel!
 
