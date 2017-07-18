@@ -20,3 +20,8 @@ test_files:
 
 # ViewModel tests
 - {name: ViewModelTests.swift, path: Tests/viewmodel_tests.swift.liquid}
+
+# Template dependencies
+dependencies:
+- RxSwift
+- RxCocoa

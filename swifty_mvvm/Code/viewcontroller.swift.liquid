@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
 
 class {{ module_info.name }}ViewController: UIViewController {
 
 
-    var viewModel: {{ prefix }}{{ module_info.name }}ViewModel!
+    let viewModel = {{ prefix }}{{ module_info.name }}ViewModel()
 
     // MARK: Life cycle
     override func viewDidLoad() {
