@@ -14,6 +14,7 @@ class {{ module_info.name }}ViewController: UIViewController {
 
 
     let viewModel = {{ prefix }}{{ module_info.name }}ViewModel()
+    let disposeBag = DisposeBag()
 
     // MARK: Life cycle
     override func viewDidLoad() {
